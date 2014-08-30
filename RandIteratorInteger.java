@@ -32,7 +32,7 @@ public class UniformRandomIteratorInteger {
     
     int count = 0;
     int RandPosition;
-    double Rand = 16384; // initial value as m/2
+    double Rand = System.currentTimeMillis(); // initial value 
     Iterator<Integer> integerIter = IntegersF.iterator();
     
     
